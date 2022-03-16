@@ -31,7 +31,7 @@
     "d3-selection": "^1.2.0",
     "htm": "2.1.1",
     "mobx": "^5.15.4",
-    "mobx-react": "^6.2.2",
+    "mobx-react": "^6.3.1",
     "mobx-state-tree": "^3.16.0",
     "preact-render-to-string": "^5.0.2",
     "preact-router": "^3.0.0",
