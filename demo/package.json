@@ -2,7 +2,9 @@
   "name": "demo",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline"
+    "start": "webpack-dev-server --inline",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.55",
@@ -39,6 +41,8 @@
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "redux": "^4.0.1",
-    "styled-components": "^4.2.0"
-  }
+    "styled-components": "^4.2.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
